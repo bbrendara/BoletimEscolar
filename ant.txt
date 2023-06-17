@@ -1,0 +1,36 @@
+    input_matricula = st.number_input(label="Insira a matrícula", format="%d",step=1)
+    input_aluno = st.text_input(label="Insira o nome do aluno")
+    input_serie= st.selectbox("Selecione a série", ["1º ano", "2º ano", "3º ano", "4º ano", "5º ano"])
+    input_artes = st.number_input(label="Nota do aluno em artes (Campo não obrigatório)", format="%d",step=1)
+    input_ciencias = st.number_input(label="Nota do aluno em ciências (Campo não obrigatório)", format="%d",step=1)
+    input_fisica = st.number_input(label="Nota do aluno em educação física (Campo não obrigatório)", format="%d",step=1)
+    input_geografia = st.number_input(label="Nota do aluno em geografia (Campo não obrigatório)", format="%d",step=1)
+    input_historia = st.number_input(label="Nota do aluno em história (Campo não obrigatório)", format="%d",step=1)
+    input_portugues = st.number_input(label="Nota do aluno em lingua portuguesa (Campo não obrigatório)", format="%d",step=1)
+    input_matematica = st.number_input(label="Nota do aluno em matemática (Campo não obrigatório)", format="%d",step=1)
+
+
+Nome do servidor: LAPTOP-N03QU36Q\MSSQLSERVER01
+Nome do usuário: sa
+senha: 123
+Nome do banco de dados: SQL_DB_1
+Nome tabela: Alunos
+
+
+server = 'LAPTOP-N03QU36Q\MSSQLSERVER01' 
+database = 'SQL_DB_1' 
+username = 'sa' 
+password = '123' 
+
+ st.write(f'Matricula: {input_matricula}')
+    st.write(f'Nome: {input_nome}')
+    st.write(f'Serie: {input_matricula}')
+    st.write(f'Artes: {input_artes}')
+    st.write(f'Ciencias: {input_ciencias}')
+    st.write(f'EdFisica: {input_fisica}')
+    st.write(f'Geografia: {input_geografia}')
+    st.write(f'Historia: {input_historia}')
+    st.write(f'Portugues: {input_portugues}')
+    st.write(f'Matematica: {input_matematica}') 
+
+
